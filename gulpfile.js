@@ -8,8 +8,8 @@ var merge = require('merge-stream');
 var declare = require('gulp-declare');
 var concat = require('gulp-concat');
 var runSequence = require('run-sequence');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
+//var browserSync = require('browser-sync');
+//var reload = browserSync.reload;
 var sass = require('gulp-sass');
  
 gulp.task('sass', function () {
@@ -20,18 +20,18 @@ gulp.task('sass', function () {
 });
 
 // watch files for changes, run the build
-gulp.task('serve', ['default'], function() {
-  browserSync({
-    server: {
-      baseDir: 'dist'
-    }
-  });
+//gulp.task('serve', ['default'], function() {
+  //browserSync({
+    //server: {
+      //baseDir: 'dist'
+    //}
+  //});
 
-  gulp.watch('app/*', ['default']);
-  gulp.watch('app/**/*', ['default']);
-  gulp.watch('client.js', ['default']);
-  gulp.watch('dist/*').on('change', browserSync.reload);
-});
+  ////gulp.watch('app/*', ['default']);
+  //gulp.watch('app/**/*', ['default']);
+  //gulp.watch('app/client.js', ['default']);
+  //gulp.watch('dist/*').on('change', browserSync.reload);
+//});
 
 // Minify the app for the browser
 gulp.task('javascript', function () {

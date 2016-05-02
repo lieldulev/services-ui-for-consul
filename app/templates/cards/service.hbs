@@ -4,11 +4,11 @@
   </div>
   <div class="mdl-card__supporting-text">
     {{#each nodes}} 
-      <div>
-        <strong>{{name}}</strong>
-        <span style="font-size:x-small">{{version}}</span>
+      <div class="node {{classes}}">
+        <strong>{{niceName}}</strong>
+        <span>{{ServiceTags.[0]}}</span>
       </div>
-    {{/each}}    
+    {{/each}}
   </div>
 </div>
 

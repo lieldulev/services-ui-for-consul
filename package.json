@@ -2,7 +2,7 @@
   "name": "github-org-stats",
   "version": "0.1.0",
   "description": "Stats and Graphs for a Github Organization.",
-  "main": "index.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -39,7 +39,11 @@
   "dependencies": {
     "axios": "^0.9.1",
     "base-64": "^0.1.0",
+    "config": "^1.20.1",
     "es6-promise": "^3.1.2",
+    "express": "^4.13.4",
+    "express-request-proxy": "^2.0.0",
+    "serve-static": "^1.10.2",
     "utf8": "^2.1.1"
   }
 }

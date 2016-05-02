@@ -8,6 +8,7 @@ div.stackable-card {
   display: inline-block;
   margin: 0.25em;
   vertical-align: top;
+  min-height: 260px;
 }
 
 p.note {
@@ -57,3 +58,41 @@ span.note {
   height:121px;
 }
 
+div.prod {
+  background-color: #4F8FfF;
+}
+div.prodblue {
+  background-color: #4F8FfF;
+}
+div.prodgreen {
+  background-color: #3FBF3F;
+}
+
+div.stg {
+  background-color: #7FAFFF;
+}
+div.stgblue {
+  background-color: #7FAFFF;
+}
+div.stggreen {
+  background-color: #9FDFAA;
+}
+
+div.qa {
+  background-color: #A1A6A5;
+}
+
+
+div.node {
+  font-size: 1.2em;
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+div.node > span {
+  background-color: rgba(255,255,255,0.5);
+  padding-left: 3px;
+  padding-right: 3px;
+  float: right;
+}

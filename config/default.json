@@ -1,0 +1,9 @@
+{
+  "Consul" : {
+    "host" : "consul.example.com",
+    "protocol" : "https"
+  },
+  "Server" : {
+    "port" : 3000
+  }
+}
